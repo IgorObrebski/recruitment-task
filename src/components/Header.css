@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Lato:ital@1&display=swap");
+
+@font-face {
+  font-family: "Lato", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Lato:ital@1&display=swap");
+}
+
+.header {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header span {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.btn {
+  height: 90px;
+  width: 236px;
+  box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  border-color: transparent;
+  margin-top: 1vh;
+  margin-right: 26px;
+  background-color: #40483a;
+}
+
+.link {
+  text-decoration: none;
+  color: #d9d9d9;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: italic;
+}
